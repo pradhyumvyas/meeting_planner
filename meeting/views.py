@@ -15,6 +15,7 @@ def all_meeting(request):
     all_meeting = Meeting.objects.all()
     return render(request, {'all_meeting': all_meeting})
 
+
 def rooms(request):
     return render(request, "meeting/rooms.html", {'room':Room.objects.all(),
                                                   'message': "Created By Pradhyum Vyas",
