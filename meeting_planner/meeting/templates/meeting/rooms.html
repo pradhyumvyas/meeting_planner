@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Rooms</title>-->
+<!--</head>-->
+<!--<body>-->
+
+{% block titile %} Rooms {% endblock %}
+
+{% block content %}
+<div class="container-fluid pradhyum">
+        <h1>Available Rooms</h1>
+     <ul>
+            {% for rm in room %}
+         <li>
+                {{rm}}
+         </li>
+         {% endfor %}
+     </ul>
+</div>
+
+{% endblock %}
+<!--</body>-->
+<!--</html>-->
