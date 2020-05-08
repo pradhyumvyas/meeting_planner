@@ -1,15 +1,14 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Meeting, Room
-from datetime   import datetime
+from datetime import datetime
 from django.forms import modelform_factory
 # Create your views here.
-
 
 def details(request, id):
     meeting = get_object_or_404(Meeting, pk=id)
     return render(request, "meeting/details.html", {'meeting': meeting,
-                                                    'message':"Created By Pradhyum Vyas",
-                                                    'date':(datetime.today().date())})
+                                                    'message': "Created By Pradhyum Vyas",
+                                                    'date': (datetime.today().date())})
 
 def all_meeting(request):
     all_meeting = Meeting.objects.all()
@@ -31,4 +30,4 @@ def form(request):
             return redirect('welcome')
     else:
         form = NewMeeting
-    return render(request, 'meeting/new.html', {'form':form})
+    return render(request, 'meeting/new.html', {'form': form})

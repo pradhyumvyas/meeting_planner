@@ -14,4 +14,4 @@ def status(request):
     return render(request, "website/status.html")
 
 def date(request):
-    return HttpResponse({})
+    return HttpResponse()
