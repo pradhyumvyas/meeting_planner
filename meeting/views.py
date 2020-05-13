@@ -1,7 +1,9 @@
+from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Meeting, Room
 from datetime import datetime
 from django.forms import modelform_factory
+
 # Create your views here.
 
 def details(request, id):
@@ -14,6 +16,11 @@ def all_meeting(request):
     all_meeting = Meeting.objects.all()
     return render(request, {'all_meeting': all_meeting})
 
+def remove(request):
+    return render(request, "meeting/remove.html", {'message': "Created By Pradhyum Vyas",
+                                                  'meeting_count': Meeting.objects.count(),
+                                                  'meeting': Meeting.objects.all(),
+                                                   'clear':Meeting.delete()})
 
 def rooms(request):
     return render(request, "meeting/rooms.html", {'room':Room.objects.all(),
