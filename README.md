@@ -1,1 +1,1 @@
-# meeting_planner
+# Meeting_Planner
