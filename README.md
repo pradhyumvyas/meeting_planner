@@ -38,3 +38,10 @@ In the Activity feature of Nav Bar are content following features
 - View Available Rooms
 - Remove Meeting 
 
+## How to Add Meeting
+
+- First go to the Activity button on the Nav Bar
+- Then Click on Add Meeting 
+- Fill details and sumbit
+
+![screenshot](addMeeting.png)
