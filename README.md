@@ -26,4 +26,15 @@ For window user
 python manage.py runserver
 ```
 
+## Design of Project
+
+In the home page you have seen your all upcoming meetings like 
+
+![screenshot](meet.png)
+
+In the Activity feature of Nav Bar are content following features
+- Add Meeting
+- View Meeting
+- View Available Rooms
+- Remove Meeting 
 
