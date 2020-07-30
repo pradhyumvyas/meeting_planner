@@ -45,3 +45,7 @@ In the Activity feature of Nav Bar are content following features
 - Fill details and sumbit
 
 ![screenshot](addMeeting.png)
+
+## View Meeting
+
+Click on a meeting name on the home page and you get the details of yours meeting
