@@ -6,6 +6,8 @@
 
 - This Application is used to add your Upcoming meeting and their details by this you easily get yours Meeting Details like time, date, location, or other meeting details.  
 
+
+
 ## How to get this ?
 
 First make sure you have installed git and python3 in your system.
@@ -26,6 +28,8 @@ For window user
 python manage.py runserver
 ```
 
+
+
 ## Design of Project
 
 In the home page you have seen your all upcoming meetings like 
@@ -38,6 +42,8 @@ In the Activity feature of Nav Bar are content following features
 - View Available Rooms
 - Remove Meeting 
 
+
+
 ## How to Add Meeting
 
 - First go to the Activity button on the Nav Bar
@@ -45,6 +51,8 @@ In the Activity feature of Nav Bar are content following features
 - Fill details and sumbit
 
 ![screenshot](addMeeting.png)
+
+
 
 ## View Meeting
 
